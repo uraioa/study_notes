@@ -269,7 +269,7 @@ if __name__ == "__main__":
 	except KeyboardInterrupt:
 		print('\nExit.')
 	status = False
-	time.sleep(3)
+	time.sleep(5)
 	connect_socket.close()
 
 
