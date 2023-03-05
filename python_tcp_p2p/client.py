@@ -34,7 +34,7 @@ def keep_alive():
 				s.sendall(sign+sign)
 			except Exception:
 				pass
-		time.sleep(1)
+		time.sleep(3)
 
 
 def unpack_data(data,buff_data):
@@ -263,5 +263,5 @@ if __name__ == "__main__":
 	except KeyboardInterrupt:
 		print('\nExit.')
 	status = False
-	time.sleep(3)
+	time.sleep(5)
 	listener.close()
